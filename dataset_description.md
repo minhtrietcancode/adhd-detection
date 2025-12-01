@@ -82,4 +82,4 @@ This means the dataset contains **sequential brain activity readings** over time
 - **Total Participants**: 121 (61 ADHD + 60 Control)
 - **Features**: 19 EEG channels + 1 class label + 1 ID
 - **Total Columns**: 21
-- **Data Type**: Time-series (sequential brain activity measurements at 128 Hz)
+- **Data Type**: Time-series (sequential brain activity measurements at 128 Hz), so each record (same participant id) would be a record for a sequential time frame (for example: record 1 is the moment before record 2)
